@@ -7,6 +7,9 @@ fi
 
 brew upgrade --cleanup
 
+# disable auto-update in this script
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 brew install git
 brew install curl
 brew install tree
