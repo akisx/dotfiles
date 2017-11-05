@@ -7,9 +7,10 @@ fi
 
 brew upgrade --cleanup
 
-# disable auto-update in this script
+# disable auto-update in this session
 export HOMEBREW_NO_AUTO_UPDATE=1
 
+# install CUI tools
 brew install git
 brew install curl
 brew install tree
