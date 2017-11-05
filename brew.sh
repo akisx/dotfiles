@@ -25,6 +25,12 @@ brew install ricty
 cp -f /usr/local/opt/ricty/share/fonts/Ricty*.ttf ~/Library/Fonts/
 fc-cache -vf
 
+# install fonts
+brew tap caskroom/fonts
+brew cask install font-noto-sans-cjk-jp
+brew cask install font-noto-serif-cjk-jp
+brew cask install font-source-han-code-jp
+
 # install GUI tools
 brew cask --version
 brew cask install alfred
