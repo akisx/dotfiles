@@ -5,7 +5,6 @@
     "workbench.colorTheme": "Flatland Monokai",
     "editor.wordWrap": "on",
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
-    "window.showFullPath": true,
     "workbench.iconTheme": "material-icon-theme",
     "terminal.external.osxExec": "iTerm.app",
     "editor.tabSize": 2
