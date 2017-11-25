@@ -7,5 +7,6 @@
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
     "window.showFullPath": true,
     "workbench.iconTheme": "material-icon-theme",
-    "terminal.external.osxExec": "iTerm.app"
+    "terminal.external.osxExec": "iTerm.app",
+    "editor.tabSize": 2
 }
