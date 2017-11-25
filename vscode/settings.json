@@ -4,7 +4,7 @@
     "editor.fontSize": 15,
     "workbench.colorTheme": "Flatland Monokai",
     "editor.wordWrap": "on",
-    "window.zoomLevel": -1,
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    "window.showFullPath": true,
     "workbench.iconTheme": "material-icon-theme"
 }
