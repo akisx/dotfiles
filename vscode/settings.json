@@ -1,11 +1,26 @@
 // 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
-    "editor.fontFamily": "Ricty, 'Source Han Code JP', Menlo",
-    "editor.fontSize": 15,
-    "workbench.colorTheme": "Flatland Monokai",
-    "editor.wordWrap": "on",
-    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
-    "workbench.iconTheme": "material-icon-theme",
-    "terminal.external.osxExec": "iTerm.app",
+  "editor.fontFamily": "Ricty, 'Source Han Code JP', Menlo",
+  "editor.fontSize": 15,
+  "workbench.colorTheme": "Flatland Monokai",
+  "editor.wordWrap": "on",
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.external.osxExec": "iTerm.app",
+  "[typescript]": {
+    "editor.formatOnSave": true,
     "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  }
 }
